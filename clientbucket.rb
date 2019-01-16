@@ -9,7 +9,7 @@ if ARGV.length < 1
 end
 
 target_path = ARGV.shift
-clientbucket_path = "/var/lib/puppet/clientbucket"
+clientbucket_path = "/opt/puppetlabs/puppet/cache/clientbucket"
 
 available_files = Array.new
 
